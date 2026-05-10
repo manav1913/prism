@@ -1,12 +1,16 @@
-import { Button } from '@/components/ui/button'
-import React from 'react'
+import HeroSection from "@/components/homepage/HeroSection"
+import HowItWorks from "@/components/homepage/HowItWorks"
+
+
+
 
 const HomePage = () => {
   return (
-    <div>
-        
-      HomePage
-    </div>
+   <>
+   
+   <HeroSection/>
+   <HowItWorks/>
+   </>
   )
 }
 
