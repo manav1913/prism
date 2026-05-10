@@ -5,12 +5,13 @@ import { Children, PropsWithChildren } from "react"
 
 const MainLayout = ({children}:PropsWithChildren) => {
   return (
-    <div>
+    <div className="min-h-screen w-screen bg-background">
+      
       <Navbar/>
       <div className="mt-4">
       {children}
       </div>
-      <Footer/>
+     <Footer/> 
 
     </div>
   )
