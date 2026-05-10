@@ -1,12 +1,16 @@
+import Footer from "@/components/homepage/Footer"
+import Navbar from "@/components/homepage/Navbar"
 import { Children, PropsWithChildren } from "react"
 
 
 const MainLayout = ({children}:PropsWithChildren) => {
   return (
     <div>
-      {/* Navbar */}
+      <Navbar/>
+      <div className="mt-4">
       {children}
-      {/* Footer */}
+      </div>
+      <Footer/>
 
     </div>
   )
