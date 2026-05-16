@@ -27,7 +27,7 @@ const HeroSection = () => {
                     </span>
                 </h1>
                 <p className="text-gray-500 text-lg md:text-xl max-w-xl mx-auto mb-10 leading-relaxed">
-                    PRism reviews your GitHub Pull Requests instantly — catching bugs,
+                    PRism reviews your GitHub Pull Requests instantly  catching bugs,
                     bad practices, and security issues before they hit production.
                 </p>
                 <div>
