@@ -1,5 +1,6 @@
 import { auth } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
+import ReviewForm from "@/components/dashboard/ReviewForm"
 
 export default async function DashboardPage() {
   const { userId } = await auth();
@@ -8,5 +9,5 @@ export default async function DashboardPage() {
     redirect("/login");
   }
 
-  return <div>Dashboard</div>
+  return <ReviewForm/>
 }
