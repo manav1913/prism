@@ -34,7 +34,7 @@ const HeroSection = () => {
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
 
                         <RedirectBtn
-                            url="/signup"
+                            url="/login"
                             variant="default"
                             className="px-6 py-3 text-base rounded-xl cursor-pointer transition-transform hover:scale-105"
                         >
