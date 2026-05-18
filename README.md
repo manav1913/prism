@@ -1,6 +1,6 @@
 # PRism ⚡
 
-AI-powered code reviewer for GitHub Pull Requests. Paste a PR URL and get instant feedback on bugs, security issues, performance, and best practices — before anything hits production.
+AI-powered code reviewer for GitHub Pull Requests. Paste a PR URL and get instant feedback on bugs, security issues, performance, and best practices before anything hits production.
 
 **Live demo:** https://prism-self-tau.vercel.app
 
